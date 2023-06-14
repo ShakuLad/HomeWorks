@@ -18,5 +18,5 @@ var name = prompt('Введите название кофе или чая',)
 if (name in starbucks.coffee || name in starbucks.tea){
     console.log('ваш заказ принят');
 } else {
-    console.log('error');
+    console.error('error');
 } 
